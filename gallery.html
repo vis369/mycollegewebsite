@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+    <title>Gallery Page</title>
+    <style>
+        body{
+            font-size: larger; font-family: 'Times New Roman', Times, serif;
+        }
+        .total{
+            margin: 20px;
+            background: rgba( 255, 255, 255, 0.5 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 20px );
+            -webkit-backdrop-filter: blur( 20px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            display: block;
+        }
+        footer{
+            background-color: #c20b4d;
+            text-align: center;
+            padding: 0px;
+        }
+        .Dastaan{
+
+            padding-left: 25%;
+
+        }
+        .Dastaan img{
+
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            display: block;
+            width: 700px;
+            height: 300px;
+        }
+        .Dastaan img:hover{
+            background: rgba( 255, 255, 255, 0.5 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 20px );
+            -webkit-backdrop-filter: blur( 20px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            display: block;
+            transition: 0.9s;
+            width: 710px;
+            height: 310px;
+
+        }
+        table{
+            margin-left: 50px;
+            border: 1px solid burlywood;
+            margin: 20px;
+        }
+        table tr td{
+            width:25%;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            padding: 25px;
+        }
+        table tr td img{
+            border: 1px solid rgba(0, 0, 0, 0.18);
+            width: 300px;
+            height: 250px; 
+            object-fit: cover;
+            object-position: 25% 25%;
+        }
+        table tr td img:hover{
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 20px );
+            -webkit-backdrop-filter: blur( 20px );
+            width: 310px;
+            height: 260px;
+            transition: 1s;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+        <h2>Gallery Page</h2>
+    <div class="total">
+        <br><br><br>
+    <div class="Dastaan">
+    <img  src="Dastaan.jpeg">
+    <br><br>
+    </div>
+    <table>
+
+        <tr>
+            <td><img src="Amrita1.jpeg" ></td>
+            <td><img src="Amrita5.jpeg"></td>
+            <td><img src="Amrita3.jpg"></td>
+            <td><img src="Amrita4.jpeg"></td>
+        </tr>
+        <tr>
+            <td><img src="events1.jpeg"></td>
+            <td><img src="events2.jpeg"></td>
+            <td><img src="events3.jpeg"></td>
+            <td><img src="events4.jpeg"></td>
+        </tr>
+        <tr>
+            <td><img src="l31.jpeg"></td>
+            <td><img src="l32.jpeg"></td>
+            <td><img src="l33.jpeg"></td>
+            <td><img src="l34.jpeg"></td>
+        </tr>
+    </table>
+    </div>
+    <footer>
+        <p>Author:Chilaka Vishnu Vardhan</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+        <p>© Copyright,Amrita Vishwa vidyapeetham</p>
+      </footer>
+</body>
+</html>
