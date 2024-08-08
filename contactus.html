@@ -20,10 +20,39 @@
             color: white;
 
         }
+        form{
+            display: block;
+            padding: 20px;
+        }
+        input:hover{
+            background: rgba( 255, 255, 255, 0.5 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 20px );
+            -webkit-backdrop-filter: blur( 20px );
+            border-radius: 10px;
+            transition: 1s;
+            padding: 10px;
+        }
+        a{
+            text-decoration : none;
+        }
+        button{
+            float: right;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        button,a{
+            color: white;
+        }
     </style>
 </head>
 <body>
+    <button><a href="home.html" title="arrows icons">Back</a></button>
     <h2>Contact Us</h2>
+
     <h3>Get in Touch with Amrita College, Bengaluru Campus</h3>
     <p>
         We are here to assist you with any inquiries you may have regarding admissions,<br> academic programs, campus facilities, or any other aspect of Amrita College. <br>Feel free to reach out to us through any of the following channels:
@@ -67,24 +96,23 @@
         <p>If you have any specific questions or need more information,<br> please fill out the form below, and our team will get back to you as soon as possible:</p>
     </div>
     <div>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone"><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="5" cols="25
-            " ></textarea><br><br>
-            <input type="submit" value="Submit" style="padding: 10px; ">
-            <input type="reset" value="refresh" style="padding:10px;">
+        <form action="https://formsubmit.co/vishnuvardhanchilakala544@gmail.com" method="post">
+            <label >Username :</label><br>
+            <input type="text" name="name"><br>
+            <label>Email id</label><br>
+            <input type="email" name="email"><br>
+            <label>Subject</label><br>
+            <input type="text" name="subject"><br>
+            <label>Issue</label><br>
+            <textarea rows="7" cols="20"></textarea><br>
+            <input type="submit">
         </form>
     </div>
     <footer>
         <p>Author:Chilaka Vishnu Vardhan</p>
         <p><a href="mailto:hege@example.com">hege@example.com</a></p>
         <p>© Copyright,Amrita Vishwa vidyapeetham</p>
+
       </footer>
 </body>
 </html>
